@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:keepScreenOn="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/ihale_adi"
+        android:textColor="@color/textColor"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ihale_adi"
+        android:gravity="center"
+        android:id="@+id/urun_adi"
+        android:textColor="@color/textColor"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/urun_adi"
+        android:gravity="center"
+        android:id="@+id/baslangic_fiyat"
+        android:textColor="@color/textColor"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/baslangic_fiyat"
+        android:id="@+id/guncel_fiyat"
+        android:textColor="@color/textColor"/>
+
+
+
+</RelativeLayout>

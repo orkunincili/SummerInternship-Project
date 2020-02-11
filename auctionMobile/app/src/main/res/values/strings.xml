@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ihale</string>
+    <string name="ihale_adi">İhale Adı:</string>
+    <string name="urun_adi">Ürün Adı:</string>
+    <string name="baslangic_fiyati">Baş.Fiyat:</string>
+    <string name="button">Button</string>
+    <string name="guncel_fiyat">Guncel Fİyat:</string>
+</resources>
